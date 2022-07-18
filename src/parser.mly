@@ -1,14 +1,43 @@
 %token <int> INT
-%token <float> FLOAT
 %token <string> ID
-%token <string> STRING
-%token TRUE
-%token FALSE
-%token NULL
-%token LEFT_BRACE
-%token RIGHT_BRACE
-%token LEFT_BRACK
-%token RIGHT_BRACK
-%token COLON
+%token WHILE 
+%token FOR
+%token TO
+%token BREAK
+%token LET
+%token IN
+%token END
+%token FUNCTION
+%token VAR
+%token TYPE
+%token ARRAY
+%token IF
+%token THEN
+%token ELSE
+%token DO
+%token OF
+%token NIL
 %token COMMA
+%token COLON
+%token SEMICOLON
+%token LPARENS
+%token RPARENS
+%token LBRACK
+%token RBRACK
+%token LBRACE
+%token RBRACE
+%token DOT
+%token ADD
+%token SUB
+%token MUL
+%token DIV
+%token EQ
+%token NEQ
+%token LT
+%token LE
+%token GT
+%token GE
+%token AND
+%token OR
+%token ASSIGN 
 %token EOF
